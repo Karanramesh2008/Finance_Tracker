@@ -5,7 +5,7 @@ from data import transaction
 import budget
 
 
-t='trasaction.json'
+t='transaction.json'
 transaction=[]
 def save_transaction():
     with open(t,'w') as c:
